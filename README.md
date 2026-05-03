@@ -1,11 +1,5 @@
 # Predictive Modeling of Online Purchase Behavior
-
-**Author:** Sahasra Chinthireddy  
-**Tools:** Python (scikit-learn, pandas, NumPy), SQL, Tableau  
-**Timeline:** Aug 2025 – Jan 2026
-
 ---
-
 ## Project Overview
 
 This project builds an end-to-end **conversion prediction pipeline** on anonymized e-commerce session data. The goal is to predict whether a given browsing session will result in a purchase, enabling targeted marketing and personalization strategies.
@@ -15,11 +9,8 @@ This project builds an end-to-end **conversion prediction pipeline** on anonymiz
 - Engineered behavioral features: purchase recency, cart frequency, session duration, and more
 - Deployed interactive Tableau dashboards with drill-down funnel views
 - Final model: **Random Forest** with calibrated probability outputs
-
 ---
-
 ## Project Structure
-
 ```
 online_purchase_prediction/
 │
@@ -64,9 +55,7 @@ online_purchase_prediction/
 ├── config.py
 └── README.md
 ```
-
 ---
-
 ## Quickstart
 
 ```bash
@@ -82,9 +71,7 @@ python src/model.py
 # 4. Run tests
 pytest tests/
 ```
-
 ---
-
 ## Feature Engineering Summary
 
 | Feature | Description |
@@ -101,9 +88,7 @@ pytest tests/
 | `time_of_day` | Hour bucket (Morning/Afternoon/Evening/Night) |
 | `is_returning_user` | Binary: has prior purchase history |
 | `category_affinity` | Most visited product category |
-
 ---
-
 ## Model Performance
 
 | Model | ROC-AUC | Precision | Recall | F1 |
